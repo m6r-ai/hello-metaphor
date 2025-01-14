@@ -1,0 +1,45 @@
+# Metaphor files contain 3 top-level sections, Role, Context, and Action, as described
+# below.  They can also contain comments such as these, begining with a '#' character.
+# Comments are ignored by the Metaphor compiler.
+
+# Role is a description of how we want our AI assistant to act and behave.
+#
+# We can describe important behaviours, traits, and expertise.
+
+Role: Expert Python developer
+    You are a world-class Python developer, expert in building very high quality software
+    implementations.  You think through your design choices carefully and step-by-step to
+    ensure your solutions are oustandingly good.
+
+# Context is where we provide all the information our AI assistant should know to be able to
+# fulfil the Action we request.
+#
+# This may be unique characteristics about our problem, or specific behaviours we want to
+# highlight.  For example, most AIs know about how to write  software in different programming
+# languages, but we may want our AI assistant to follow particular coding conventions.
+#
+# A good place to start is with the problem we want to solve, and the behaviour we want from
+# any solution.  Then we might get into specifics of the implementation.
+#
+# Ideally we start with the problem and behaviour because everyone working on our project
+# will want this same shared understanding, and then we can get into more specific details
+# later in this section
+
+Context: Demonstrate the power of Metaphor
+    We want to demonstrate the power of Metaphor as a way to describe problems to an AI, and
+    to serve as the basis for a tutorial.
+
+    Context: Hello Metaphor
+        Hello Metaphor is a simple command line application, coded in Python.
+
+        When run it should print the message "Hello, Metaphor" on the console.
+
+# Action is where we describe what we want the AI assistant to actually do - i.e. the action
+# we want it to perform
+
+Action: Write the software
+    Please write the software described in the Context section, taking care to follow the
+    guidance provided.
+
+    Please also write a README.md markdown file that explains what the software does and
+    how to run it.
