@@ -14,7 +14,7 @@ but it's probably simpler to do this using `Humbug`.
 With `Humbug` use "New Workspace" to create a workspace using the `hello-metaphor` directory.  If you've
 done this already then you can use "Open Workspace" to open the existing workspace.
 
-You can open the `hello-metaphor.m6r file by clicking on the `metaphor` directory in the file view or by
+You can open the `hello-metaphor.m6r` file by clicking on the `metaphor` directory in the file view or by
 using "Open File..." from the menu.
 
 To use this file, you can start a new Metaphor-based conversation using "New Metaphor Conversation..."
